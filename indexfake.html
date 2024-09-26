@@ -4,48 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio Web</title>
+    <link  rel="stylesheet" type="text/css" href="./Reset.css" />
+    <link rel="stylesheet" type="text/css" href="./Style-css" />
 </head>
-<body>
+<body class="fondo">
     <header>
-        <div class="container">
-            <h1>Mi Primera Sección</h1>
-            <img src="./samurai.jpeg"
-            alt="Esta es la imagen de un samurai cyberpunk"
-            width="600"
-            height="350"/>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis harum, provident aut odit laborum, nam ad aperiam magnam vero asperiores dignissimos maxime quam eum obcaecati exercitationem. Impedit natus repudiandae iure?</p>
-            </article>
+        <div id="titulos">
+            <h1 class="title">PRIMEROS ESTILOS CON CSS</h1>
+            <h2 class="title">BY MILTON LOZADA CUELLAR</h2>
+
         </div>
+
     </header>
-        <main>
-            <section>
-                <hr />
-                <form>
-                    <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre">
-                    </div><br>
-                    <div>
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" id="apellido" name="apellido">
-                    </div><br>
-                    <div>
-                        <button type="submit">Enviar</button>
+        <br>
+    <main>
+        <article>
+             <div>
+                    <h3 class="subtitle">Esta es mi página web y le daré estilos.</h3>
+                    <p class="miTexto">Este es mi primer ejercicio con css, es un aprendizaje constante lo cual me llena de motivación para continuar.</p>
+                    <p class="miTexto">Inicié en SoyHenry como parte de un reto personal, un nuevo desafía de algo que sé me motiva y me gusta, la tarea es llegar al final con total éxito.</p>
+                </div>
+        </article>
+            <br>
+            <article>
+                    <div id="cards-container">
+        
+                        <div class="cards">
+                            <h4 class="subtitle">HTML</h4>
+                            <img src="./html.png" class="logo" />
+                        </div>
+                        <div class="cards">
+                            <h4 class="subtitle">JAVASCRIPT</h4>
+                            <img src="./javal.png" class="logo" />
+                        </div>
+                        <div class="cards">
+                            <h4 class="subtitle">CSS</h4>
+                            <img src="./css.png" class="logo" />
+                        </div>
+                        
                     </div>
-                </form>
-            </section>
-                <section>
-                    <hr />
-                <p><b>Esto es hecho con la etiqueta de order list</b></p>
-                <ol>
-                <li>Primer elemento</li>
-                <li>Segundo elemento</li>
-                <li>Tercer elemento</li>
-                </ol>
-                <hr />
-                </section>
+            </article>
                 
-        </main>
+            
+     </main>
+        <hr>
+        <footer>
+            <div class="foot">
+    
+                <p><b>Acá encontrarás los links a las redes sociales y la info de contacto o contactos,<br> de una empresa, de una web personal.</b></p>
+    
+            </div>
+        </footer>    
 </body>
 </html>
