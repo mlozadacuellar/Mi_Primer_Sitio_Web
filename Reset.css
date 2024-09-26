@@ -1,0 +1,53 @@
+/* reset.css */
+
+/* Elimina los márgenes, rellenos y bordes predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establece un tamaño de fuente base */
+html {
+    font-size: 100%;
+}
+
+/* Elimina decoraciones de enlaces y los establece como elementos de bloque */
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+/* Remueve los estilos predeterminados de las listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Restablece los bordes y el tamaño de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+/* Quita los estilos de los botones */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Restablece los formularios */
+input, textarea {
+    font: inherit;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
