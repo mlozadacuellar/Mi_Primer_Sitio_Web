@@ -1,0 +1,73 @@
+.fondo {
+    background-image: url('./samurai-punk.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title {
+ 
+    font-size: 3em;
+    color: rgb(244, 240, 248);
+}
+.subtitle {
+    font-size: 2.5em;
+    color: rgb(244, 240, 248);
+   
+}
+.cards {
+    border: solid black;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+
+   
+}
+.cards:hover {
+    background-color: rgba(199, 209, 212, 0.295);
+
+}
+.logo {
+    width: 250px;
+    
+}
+.miTexto {
+    font-size: 1em;
+    color: rgb(244, 240, 248);
+    
+}
+.foot {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border: solid black;
+    border-radius: 10px;
+    
+
+}
+.foot:hover {
+    background-color: rgba(199, 209, 212, 0.295);
+}
+#titulos {
+    border: solid black;
+    width: 60vw;
+    margin: auto;
+    padding: 1.5em;
+    border-radius: 10px;
+
+}
+#cards-container {
+    width: 80vw;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border: solid blanchedalmond;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+
+}
