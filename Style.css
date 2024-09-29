@@ -9,9 +9,7 @@
     font-size: 3em;
     color: rgb(244, 240, 248);
 }
-.title :hover {
-    background-color: rgba(199, 209, 212, 0.295);
-}
+
 .subtitle {
     font-size: 2.5em;
     color: rgb(244, 240, 248);
@@ -48,6 +46,7 @@
     margin-bottom: 1.5em;
     border: solid black;
     border-radius: 10px;
+    padding: auto;
     
 
 }
@@ -61,6 +60,9 @@
     padding: 1.5em;
     border-radius: 10px;
 
+}
+#titulos:hover{
+    background-color: rgba(199, 209, 212, 0.295);
 }
 #cards-container {
     width: 80vw;
